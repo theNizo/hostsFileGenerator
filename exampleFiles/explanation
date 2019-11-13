@@ -1,0 +1,18 @@
+input:
+	We want to block every Google and YouTube domain with the TLDs specified in tld.
+	Because Reddit has a TLD at the end, you will only see Reddit lines that end with ".com"
+tld:
+	We specify all TLDs that we want to combine with the domains specified in input.
+	Note that the dot in front doesn't matter if it exists or not.
+output:
+	Doesn't exist yet, but doesn't matter.
+
+If you want to test, if it works, remove the output file
+I'm Linux with OpenJDK and have the .jar inside this folder so I don't have to type paths.
+
+java -jar hostsGenerator.jar tld input output
+
+if I had a head, it would be the first argument and I would have 4 arguments. This is not the case here.
+Now you can go to exampleFiles and look at output.
+
+I'm currently not sure, but I think in Windows, you don't have to type "java -jar" and can start directly at "hostsGenerator..."
