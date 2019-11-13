@@ -20,3 +20,5 @@ The program must be run from a command line or terminal.
 Without head:
 
 `hostsGenerator.jar </path/to/tld> </path/to/input> </path/to/output>`
+
+If you want to try it, there's a folder called "exampleFiles" in the repo
