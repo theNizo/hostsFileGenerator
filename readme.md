@@ -1,4 +1,5 @@
 (This tool was made because I'm lazy and don't want to type every single line in the hosts file myself.)
+(Could you make a script version too?)
 
 ## What is it?
 
