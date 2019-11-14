@@ -4,7 +4,6 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        //args = new String[]{"/home/nizo/Documents/hosts/tld /home/nizo/Documents/hosts/input /home/nizo/Documents/hosts/output"}; //remove later
         //correct args
         if(args.length==3) {
             args = new String[]{null, args[0], args[1], args[2]};
